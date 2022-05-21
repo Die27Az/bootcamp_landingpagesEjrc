@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* CAMBIAR EL FONT DEL BODY  SOLO A CABIN Y AGREGAR LOBSTER SOLO AL NAVBAR*/
+
+.navtxt, .ricomida {
+    font-size: 37px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-family: cabin;
+}
+
+h1, h3{
+
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+
+.border-bot , .carousel {
+    border-bottom: 2px solid #000000;
+}
+
+
+
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: #373A3C;
+    
+}
+
+.largef {
+    padding: 10rem;
+    height: 534px;
+}
+
+.btn2 {
+    width: 233px;
+}
+
+.font {
+    font-size: 20px;
+  }
+
+  @media (Max-width: 575.98px) {
+    header {
+        border-top: 1px solid #000;
+}
+    .largef {
+
+        padding: 2rem;
+    }
+}
